@@ -11,4 +11,6 @@ add_subdirectory( case0 )
 add_subdirectory( case1 )
 add_subdirectory( case2 )
 add_subdirectory( case3 )
+add_subdirectory( case4 )
+add_subdirectory( case5 )
 

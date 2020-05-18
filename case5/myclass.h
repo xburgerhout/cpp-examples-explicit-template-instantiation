@@ -2,20 +2,24 @@
 #ifndef MYCLASS_H
 #define MYCLASS_H
 
-template <typename T>
+#include <string>
+
 class MyClass
 {
 public:
-  MyClass( T value = T{} );
+  MyClass();
 
   void printSelf();
 
+  template <typename T>
+  void addValue( T t );
+
 private:
-  T m_t;
+  std::string m_text;
 };
 
 // Announce template instantiations for int/double
-extern template class MyClass<int>;
-extern template class MyClass<double>;
+extern template void MyClass::addValue<int>( int t );
+extern template void MyClass::addValue<double>( double t );
 
 #endif // MYCLASS_H

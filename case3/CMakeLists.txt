@@ -1,4 +1,4 @@
-add_executable(case3_extern_template_member_method
+add_executable(case3
   main.cpp
   demo.cpp
   myclass.h

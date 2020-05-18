@@ -2,8 +2,6 @@
 
 #include "myclass.h"
 
-#include <iostream>
-
 extern void someFunction();
 
 int main(int argc, char *argv[])

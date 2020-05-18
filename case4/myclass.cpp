@@ -1,13 +1,6 @@
 /*                                         Copyright (c) 2020 TNO DIANA BV */
 
 #include "myclass.h"
-#include "myclass.hpp" // Needed for the explicit template instantiation below
-
-#include <iostream>
-
-// Explicit instantiation
-template void MyClass::addValue<int>( int t );
-template void MyClass::addValue<double>( double t );
 
 MyClass::MyClass() = default;
 

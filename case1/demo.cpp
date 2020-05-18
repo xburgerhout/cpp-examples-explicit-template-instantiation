@@ -2,7 +2,6 @@
 
 #include "myclass.h"
 
-#include <iostream>
 #include <string>
 
 void someFunction()

@@ -1,4 +1,4 @@
-add_executable(case1_extern_template_class
+add_executable(case1
   main.cpp
   myclass.cpp
   myclass.h
