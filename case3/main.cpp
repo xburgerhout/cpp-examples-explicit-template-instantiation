@@ -1,4 +1,3 @@
-/*                                         Copyright (c) 2020 TNO DIANA BV */
 
 #include "myclass.h"
 

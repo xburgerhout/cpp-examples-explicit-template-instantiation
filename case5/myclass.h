@@ -1,4 +1,3 @@
-/*                                         Copyright (c) 2020 TNO DIANA BV */
 #ifndef MYCLASS_H
 #define MYCLASS_H
 
